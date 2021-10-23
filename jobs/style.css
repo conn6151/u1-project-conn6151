@@ -1,0 +1,29 @@
+/* /jobs/ style.css */
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.place-ttl {
+    /* Definitely not copied from somewhere else in this project. Nonono......... */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-top: #282828 5px solid;
+    border-bottom: #282828 5px solid;
+    background-color: #1f1f1f;
+    color: #cccccc;
+    text-shadow: rgba(0, 0, 0, 0.45) 4px 3.5px;
+}
+
+p {
+    font-size: 24px;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* EOF */

@@ -1,0 +1,61 @@
+/* ROOT: style.css */
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+#main-ttl {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    color: #bbbbbb;
+}
+
+#sub-ttl {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #bbbbbb;
+}
+
+#cmp-img {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: 40%;
+    min-width: 20%;
+    border-radius: 24px;
+}
+
+.info-card {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    background-color: #272727;
+    border-bottom: 5px solid #303030;
+    border-top: 5px solid #303030;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info-card ttl {
+    font-size: 26px;
+}
+
+.info-card a {
+    font-family: 'Roboto Mono', monospace;
+    padding: 6px;
+    width: auto;
+    font-size: 15px;
+}
+
+/* EOF */
