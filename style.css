@@ -7,6 +7,10 @@
 /* Ubuntu */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
+#menu {
+    margin-left: auto;
+}
+
 #main-ttl {
     text-align: center;
     padding: 20px;
@@ -27,7 +31,7 @@
 
 #cmp-img {
     display: block;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -39,7 +43,7 @@
 .info-card {
     text-align: center;
     color: white;
-    margin-top: 20px;
+    margin-top: 160px;
     background-color: #272727;
     border-bottom: 5px solid #303030;
     border-top: 5px solid #303030;
@@ -48,7 +52,7 @@
 }
 
 .info-card ttl {
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .info-card a {
@@ -56,6 +60,16 @@
     padding: 6px;
     width: auto;
     font-size: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    width: 60%;
 }
 
 /* EOF */

@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    background: rgba(164, 164, 164, 0.5);
+    background: rgba(150, 150, 150, 0.4);
     border-radius: 8px;
     color: #ff00ff;
 }
@@ -46,6 +46,8 @@ p a:hover {
 }
 
 li {
+    font-size: 17px;
+    margin-bottom: 10px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +64,7 @@ li a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, .2);
     backdrop-filter: blur(6px);
 }
 
@@ -100,6 +102,30 @@ li a:hover {
     width: 600;
     height: 450;
     border: 0;
+}
+
+.ttl {
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Roboto', sans-serif;
+    border-top: #282828 5px solid;
+    border-bottom: #282828 5px solid;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #cccccc;
+    text-shadow: rgba(0, 0, 0, 0.45) 4px 3.5px;
+}
+
+.top-ttl {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-top: #282828 5px solid;
+    border-bottom: #282828 5px solid;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #cccccc;
+    text-shadow: rgba(0, 0, 0, 0.45) 4px 3.5px;
 }
 
 /* EOF */
