@@ -19,12 +19,15 @@ a {
     color: #8700aa;
     font-weight: bold;
     text-align: center;
+    border-radius: 8px;
 }
 
 a:hover {
-    background: rgba(150, 150, 150, 0.4);
-    border-radius: 8px;
     color: #ff00ff;
+}
+
+.show-background:hover {
+    background: rgba(150, 150, 150, 0.4);
 }
 
 p {
@@ -41,8 +44,8 @@ p {
     line-height: 150%;
 }
 
-p a:hover {
-    background: rgba(0, 0, 0, 0);
+ul {
+    margin-bottom: 80px;
 }
 
 li {
@@ -55,8 +58,8 @@ li {
     color: #cccccc;
 }
 
-li a:hover {
-    background: rgba(0, 0, 0, 0);
+img {
+    border-radius: 20px;
 }
 
 #head-bar {

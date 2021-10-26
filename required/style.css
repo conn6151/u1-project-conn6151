@@ -1,5 +1,49 @@
 /* /info/ style.css */
 
+#disclaim {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
 
+#stressed {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+#disclaim, #stressed {
+    color: #848484;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.8px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    min-width: 400px;
+}
+
+.list-entry {
+    margin-top: 80px;
+    font-size: 22px;
+    text-decoration: underline;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(100, 100, 100, 0.3);
+}
 
 /* EOF */

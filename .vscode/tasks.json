@@ -8,10 +8,7 @@
             "type": "shell",
             "command": "brave-browser http://127.0.0.1:5500",
             "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "test"
         }
     ]
 }
