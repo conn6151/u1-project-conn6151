@@ -111,10 +111,10 @@ img {
     text-align: center;
     margin-top: 120px;
     font-family: 'Roboto', sans-serif;
-    border-top: #282828 5px solid;
-    border-bottom: #282828 5px solid;
+    border-top: #2f2f2f 5px solid;
+    border-bottom: #2f2f2f 5px solid;
     padding: 10px;
-    background-color: #1f1f1f;
+    background-color: #2a2a2a;
     color: #cccccc;
     text-shadow: rgba(0, 0, 0, 0.45) 4px 3.5px;
 }
